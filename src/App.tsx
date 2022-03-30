@@ -1,7 +1,10 @@
-import React from 'react'
+import CreateGlobalStyles from './styles/globalStyles'
 
-function App() {
-  return <div>Hello world!</div>
+export function App() {
+  return (
+    <>
+      <CreateGlobalStyles />
+      <div>Hello world!</div>
+    </>
+  )
 }
-
-export default App

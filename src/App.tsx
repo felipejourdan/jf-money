@@ -4,7 +4,7 @@ export function App() {
   return (
     <>
       <CreateGlobalStyles />
-      <div>Hello world!</div>
+      <div>Hello world!!!</div>
     </>
   )
 }

@@ -1,10 +1,10 @@
-import CreateGlobalStyles from './styles/globalStyles'
+import { GlobalStyle } from './styles/globalStyles'
 
 export function App() {
   return (
     <>
-      <CreateGlobalStyles />
-      <div>Hello world!!!</div>
+      <GlobalStyle />
+      <h1>Hello world!!!</h1>
     </>
   )
 }

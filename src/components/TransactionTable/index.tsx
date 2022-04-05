@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { api } from '../../services/api'
 import { Container } from './styles'
 
@@ -20,12 +20,6 @@ export const TransactionTable = () => {
         </thead>
 
         <tbody>
-          <tr>
-            <td>Desenvolvimento Website</td>
-            <td className="deposit">R$ 8.000,00</td>
-            <td>Freelance</td>
-            <td>29/01/2022</td>
-          </tr>
           <tr>
             <td>Super Mercado</td>
             <td className="withdraw">- R$ 500,00</td>

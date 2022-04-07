@@ -8,6 +8,7 @@ createServer({
     transaction: Model
   },
 
+  //CRIA UM BANCO DE DADOS
   seeds(server) {
     server.db.loadData({
       transactions: [
@@ -17,7 +18,7 @@ createServer({
           type: 'deposit',
           category: 'Freelancer',
           amount: 2500.0,
-          atDate: new Date('2022-04-01 09:00:00')
+          createdAt: new Date('2022-04-01 09:00:00')
         },
         {
           id: 2,
@@ -25,11 +26,13 @@ createServer({
           type: 'withdraw',
           category: 'Casa',
           amount: 1200,
-          atDate: new Date('2022-04-04 11:00:00')
+          createdAt: new Date('2022-04-04 11:00:00')
         }
       ]
     })
   },
+
+  // CRIA AS ROTAS DA API
 
   routes() {
     this.namespace = 'api'

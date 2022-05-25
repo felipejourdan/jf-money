@@ -11,24 +11,7 @@ createServer({
   //CRIA UM BANCO DE DADOS
   seeds(server) {
     server.db.loadData({
-      transactions: [
-        {
-          id: 1,
-          title: 'Freelancer website',
-          type: 'deposit',
-          category: 'Freelancer',
-          amount: 2500.0,
-          createdAt: new Date('2022-04-01 09:00:00')
-        },
-        {
-          id: 2,
-          title: 'Aluguel',
-          type: 'withdraw',
-          category: 'Casa',
-          amount: 1200,
-          createdAt: new Date('2022-04-04 11:00:00')
-        }
-      ]
+      transactions: []
     })
   },
 

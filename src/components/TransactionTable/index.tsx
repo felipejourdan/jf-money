@@ -5,8 +5,6 @@ import { Container } from './styles'
 export const TransactionTable = () => {
   const { transactions } = useContext(TransactionsContext)
 
-  console.log(transactions)
-
   return (
     <Container>
       <table>

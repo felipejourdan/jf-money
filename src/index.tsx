@@ -16,7 +16,6 @@ createServer({
   },
 
   // CRIA AS ROTAS DA API
-
   routes() {
     this.namespace = 'api'
 

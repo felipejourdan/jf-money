@@ -10,8 +10,6 @@ interface TransactionProps {
   createdAt: string
 }
 
-//COPIA UMA INTERFACE E OMITE AS INFORMAÇÕES SELECIONADAS
-
 interface transactionProviderProps {
   children: ReactNode
 }
